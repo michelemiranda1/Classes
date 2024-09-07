@@ -32,10 +32,8 @@ class enfermeiro extends funcionario { // Herança
     }
 }
 
-// fazendo a iteração 
 let m1 = new medico ('Sabrina', 11000); // defini o nome e salario
 m1.addAtividades() // chamei o metodo que imprime o nome do medico e a atividade que o mesmo está desempenhando/desempenha 
 
-// criei uma nova instancia
 let e1 = new enfermeiro ('Carolina', 6100); 
 e1.addAtividades() // chama o metodo e imprime Carolina está cuidando de pacientes 
