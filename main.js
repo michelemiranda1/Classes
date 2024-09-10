@@ -6,17 +6,20 @@ class funcionarioHospitalar {
         this.nome = nome;
         this.salario = salario;
     }
-
     get nome(){
         return this.nome;  
             }
-    
     addAtividades() { // metodo 
-
     }
-}
 
-class medico extends funcionario { // Herança 
+    set salario(novoSalario)
+    {
+        if (NovoSalario > salario) {
+            console.log('Você recebeu um aumento salarial');
+    }
+
+
+class medico extends funcionarioHospitalar { // Herança 
     constructor(nome, salario) {
         super(nome, salario) // inicia as propriedades da função base funcionario 
     }
@@ -26,7 +29,7 @@ class medico extends funcionario { // Herança
     }
 }
 
-class enfermeiro extends funcionario { // Herança 
+class enfermeiro extends funcionarioHospitalar { // Herança 
     constructor(nome, salario) {
         super(nome, salario) // inicia as propriedades da função base funcionario 
     }
