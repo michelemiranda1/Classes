@@ -9,13 +9,14 @@ class funcionarioHospitalar {
     get nome(){
         return this.nome;  
             }
-    addAtividades() { // metodo 
-    }
-
+    
     set salario(novoSalario)
     {
         if (NovoSalario > salario) {
             console.log('Você recebeu um aumento salarial');
+    }
+
+            addAtividades() { // metodo 
     }
 
 
